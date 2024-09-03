@@ -1,0 +1,203 @@
+*{margin: 0px;}
+.teddy {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(5px 10px 15px #8338068a);
+  }
+  
+  .head {
+    position: relative;
+    width: 85px;
+    height: 80px;
+    background-color: #9e5418;
+    border-radius: 50px;
+    margin-bottom: -8px;
+  }
+  
+  .oreja1 {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-color: #9e5418;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .oreja2 {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #9e5418;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .lobulo1-m1 {
+    background-color: #ffbe88;
+    width: 22px;
+    border-radius: 11px 11px 0 0;
+    height: 11px;
+    margin-top: 8px;
+    margin-left: 4px;
+    transform: rotate(-40deg);
+    box-shadow: inset 6px -1px 10px 0px #9e5418be;
+  }
+  
+  .lobulo2-m2 {
+    background-color: #ffbe88;
+    width: 22px;
+    border-radius: 11px 11px 0 0;
+    height: 11px;
+    margin-top: 8px;
+    margin-left: 14px;
+    transform: rotate(40deg);
+    box-shadow: inset 6px -1px 10px 0px #9e5418be;
+  }
+  
+  .ojos1 {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    background-color: rgb(0, 0, 0);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+  }
+  
+  .ojos2 {
+    position: absolute;
+    top: 20px;
+    right: 18px;
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+  }
+  
+  .w {
+    background-color: blanchedalmond;
+    width: 6px;
+    height: 6px;
+    margin: 4px;
+    border-radius: 50%;
+  }
+  
+ .hocico {
+    position: absolute;
+    bottom: 8px;
+    right: 25px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    filter: drop-shadow(0 0 2px #000000af);
+  } 
+  
+  .nariz {
+    background-color: #3f1d00;
+    width: 16px;
+    margin: 3px 0 0 8px;
+    height: 16px;
+    border-radius: 50%;
+  }
+  
+  .cuerpo {
+    position: relative;
+    background: #9e5418;
+    width: 100px;
+    height: 125px;
+    border-radius: 45%;
+  }
+  
+  .estomago {
+    background: #eacdbb;
+    width: 56px;
+    height: 85px;
+    margin: 22px;
+    border-radius: 45%;
+    box-shadow: inset 2px -2px 10px 0px #9e5418be;
+  }
+  
+  .brazo1 {
+    position: absolute;
+    left: -40px;
+    top: 12px;
+    background-color: #9e5418;
+    width: 65px;
+    height: 30px;
+    border-radius: 20px 0 0 20px;    
+ }
+  
+  .brazo2 {
+    position: absolute;
+    right: -40px;
+    top: 12px;
+    background-color: #9e5418;
+    width: 65px;
+    height: 30px;
+    border-radius: 0 20px 20px 0;
+  }
+  
+  .brazo1 .h {
+    background: #eeeae7;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: inset 6px -1px 10px 0px #9e5418be;
+  }
+  
+  .brazo2 .h {
+    background: #f1ece9;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    margin-left: 40px;
+    border-radius: 50%;
+    box-shadow: inset 6px -1px 10px 0px #9e5418be;
+  }
+  
+  .pierna1 {
+    position: absolute;
+    left: -30px;
+    bottom: 6px;
+    background-color: #9e5418;
+    width: 55px;
+    height: 35px;
+    border-radius: 20px 0 0 20px;
+  }
+  
+  .pierna2 {
+    position: absolute;
+    right: -30px;
+    bottom: 6px;
+    background-color: #9e5418;
+    width: 55px;
+    height: 35px;
+    border-radius: 0 20px 20px 0;
+    
+  }
+  
+  .pierna1 .l {
+    background: #f5f3f2;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: inset 6px -1px 10px 0px #9e5418be;
+  }
+  
+  .pierna2 .l {
+    background: #f8f6f5;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    margin-left: 25px;
+    border-radius: 50%;
+    box-shadow: inset 6px -1px 10px 0px #9e5418be;
+  }
